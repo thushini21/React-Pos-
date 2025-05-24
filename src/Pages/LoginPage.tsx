@@ -34,7 +34,7 @@ const LoginPage = () => {
             setError("Password should be at least 5 characters");
         }
 
-        if(formData.email.trim() === "thushiniakashi58@gmail.com" && formData.password === "1234") {
+        if(formData.email.trim() === "thushiniakashi58@gmail.com" && formData.password === "12345") {
             setError(null)
             toast.success("loged in");
             navigate("/dashboard");
